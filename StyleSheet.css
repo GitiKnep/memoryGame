@@ -1,0 +1,107 @@
+﻿body {
+    text-align: center;
+    color: green;
+    font-size: 1.5rem;
+}
+
+.warpper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    height: 80vh
+}
+
+.cards {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-size: contain;
+    background-position: center;
+    background-image: url('1.png');
+    background-repeat: no-repeat;
+}
+img {
+    width: 98.75vw;
+    height: 98vh;
+    position: absolute;
+}
+.set1 {
+    background-image: url('images/2.png');
+}
+
+.set2 {
+    background-image: url('images/3.png');
+}
+
+.set3 {
+    background-image: url('images/4.png');
+}
+
+.set4 {
+    background-image: url('images/5.png');
+}
+
+.set5 {
+    background-image: url('images/6.png');
+}
+
+.set6 {
+    background-image: url('images/7.png');
+}
+
+.set7 {
+    background-image: url('images/8.png');
+}
+
+.set8 {
+    background-image: url('images/9.png');
+}
+
+.set9 {
+    background-image: url('images/10.png');
+}
+
+.set10 {
+    background-image: url('images/11.png');
+}
+
+
+.done {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(193 255 166 / 42%);
+    display: none;
+    text-align: inherit;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+a, #status {
+    border: none;
+    width: 98%;
+    color: green;
+    margin: 3px;
+    text-decoration: none;
+    background-color: none;
+    font-size: 2rem;
+}
+
+#end {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: white;
+    display: none;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 15px; 
+    background-color: lightgreen;
+}
+#sumScore{
+    text-align:right;
+    direction:rtl;
+    font-size:2rem;
+}
+
+
